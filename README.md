@@ -22,20 +22,6 @@ mvn clean package -DskipTests=true
 mvn azure-functions:run
 ```
 
-```
-Http Functions:
-
-        userDelete: [DELETE] http://localhost:7071/api/userDelete
-
-        userGet: [GET] http://localhost:7071/api/userGet
-
-        userProfile: [GET] http://localhost:7071/api/profile/{id}
-
-        userSave: [POST] http://localhost:7071/api/userSave
-
-        userUpdate: [PUT] http://localhost:7071/api/userUpdate
-
-```
 
 ## Deploy
 
